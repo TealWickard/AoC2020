@@ -1,0 +1,4 @@
+The majority of this problem was parsing the input.
+While there might be a way to do with regex, I just split it based on how I knew the string was arranged, and then used indexOf and substring to get the exact values.
+For the first half, I counted every character.
+For the second half, I used XOR while checking indeces.
