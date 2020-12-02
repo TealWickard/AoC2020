@@ -1,4 +1,4 @@
-package Day;
+package Day3;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Solution {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner scan = new Scanner(new File("Day/input.txt"));
+        Scanner scan = new Scanner(new File("Day3/input.txt"));
         int answer1 = 0;
         int answer2 = 0;
         while(scan.hasNextLine()){
