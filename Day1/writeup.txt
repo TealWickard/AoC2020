@@ -1,0 +1,5 @@
+For part 1, I knew the highest number was just over 2000, so I used an array to store which values existed.
+In hindsight, a hashmap would have worked better, but both are O(N).
+
+For part 2, I was fine doing the O(N^2) solution by iterating through each possible i or j, since O(N^2) is fine for 2000 items.
+Using a hashmap and just checking the keys could have reduced the N a bit.
