@@ -1,0 +1,4 @@
+Code isn't pretty, but I was going for speed!
+I parsed the file into a 2d array.
+I then set coordinates to toboggan down, and looped by checking for when it was out of bounds and subtracting the limit.
+For part 2, I copied the code 4 times and stored the answers in an array for future multiplication.
