@@ -1,0 +1,4 @@
+For day 1, I parsed the file by making a passport string, and storing every line until a blank line into it.
+Once I reached a blank line, I could then parse the passport.
+I checked if it contained the 7 necessary fields (I also checked to make sure there wasn't two of a field, but this never came up), and added those with the correct fields to answer1.
+For answer2, I took each piece of data separately and parsed it in a switch statement, because each data had different requirements.
