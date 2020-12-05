@@ -2,4 +2,4 @@ This problem was about parsing the letters as a pseudo-binary search of sorts.
 The way I did this was to have a decreasing power of 2 that would either be added or not.
 Effectively, I was converting the string into binary, where B is 1 and F is 0.
 I then calculated id and reported the highest, while storing all in an ArrayList (Hash structure of some kind would be faster in runtime, but slower in implementation due to familiarity).
-I initially misread the question, and didn't realize my ID was not in the system, but after fixing that, I could check if n and n + 2 were in the system, but n + 1 wasn't, and return n + 1.
+I initially misread the question, and didn't realize my ID was not in the system, but after fixing that, I could check if n and n + 2 were in the system, but n + 1 wasn't, and return n + 1. 
